@@ -37,12 +37,6 @@ a:hover {
   border-top: 1px solid #ddd;
 }
 
-.hero {
-  display: block;
-  width: 100%;
-  margin-bottom: 1em;
-}
-
 .readmore {
   display: block;
   padding: 5px 0 5px 10px;

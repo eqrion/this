@@ -1,112 +1,130 @@
 /* common */
 
-body {
-  margin-left: 6%;
-  width: 88%;
-}
-@media (min-width: 768px) {
-  body {
-    margin-left: 8.3333333%;
-    width: 83.3333333%;
-  }
-}
-@media(min-width: 992px) {
-  body {
-    margin-left: 16.6666666%;
-    width: 66.6666666%;
-  }
-}
-@media(min-width: 1400px) {
-  body {
-    margin-left: 28%;
-    width: 44%;
-  }
+* {
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #fafafa;
-  font-family: sans-serif;
-  line-height: 1.45;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.6;
+  padding: 40px 20px;
+  max-width: 820px;
+  margin: 0 auto;
 }
+
+h1, h2, h3 {
+  font-weight: normal;
+  color: #000000;
+}
+
 th {
   padding: 0.5em;
 }
+
 a {
-  color: #0096cc;
+  color: #2563eb;
+  text-decoration: none;
 }
 a:hover {
-  color: #007199;
+  color: #000000;
 }
 
 .divider {
   margin-top: 1.75em;
-  margin-bottom: 0.75em;
-  border-bottom: 2px solid #f0f0f0;
+  margin-bottom: 1.75em;
+  border-top: 1px solid #ddd;
 }
 
 .hero {
   display: block;
   width: 100%;
+  margin-bottom: 1em;
 }
 
 .readmore {
-  font-family: sans-serif;
-  text-decoration: unset;
   display: block;
+  padding: 5px 0 5px 10px;
+  border-left: 3px solid transparent;
+  transition: all 0.2s ease;
+}
+.readmore:hover {
+  border-left-color: #2563eb;
+  color: #000000;
+  padding-left: 15px;
+}
+
+code, pre {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+code {
+  background-color: #f5f5f5;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+pre {
+  background-color: #f5f5f5;
+  padding: 1em;
+  overflow-x: auto;
+  border-radius: 3px;
+}
+pre code {
+  background: none;
+  padding: 0;
 }
 
 /* header */
 
 body > header {
-  line-height: 3rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
-header > nav {
-  float: right;
+body > header h1 {
+  margin: 0;
 }
 
 .title {
-  font-size: 2rem;
-  font-family: sans-serif;
-  font-weight: bold;
-    text-decoration: none;
-  color: #668baf;
-  margin-right: 2rem;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #000000;
 }
-.title:active {
-    text-decoration: underline;
-    color: #4f6f8e;
+.title:hover {
+  color: #2563eb;
 }
 
 .top-link {
-  font-size: 1.2rem;
-  font-family: sans-serif;
-  text-decoration: none;
-  color: #272727;
-  margin-right: 1rem;
+  display: inline-block;
+  margin-left: 1rem;
+  padding: 5px 0 5px 10px;
+  border-left: 3px solid transparent;
+  transition: all 0.2s ease;
 }
-.top-link:active {
-    text-decoration: underline;
+.top-link:hover {
+  border-left-color: #2563eb;
+  color: #000000;
+  padding-left: 15px;
 }
 
 /* footer */
 
 footer {
-  font-size: 0.8em;
-  text-align: center;
-  color: #777;
-  margin-top: 3em;
-  margin-bottom: 3em;
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
+  color: #666;
 }
 
 /* post */
 
 .post {
   margin-bottom: 2rem;
-  font-size: 1.15rem;
-  color: #333;
 }
 
 .post > header > h2 {
@@ -115,20 +133,17 @@ footer {
 }
 
 .post-title {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.7rem;
-  color: black;
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: #000000;
 }
-.post-title:active {
-  text-decoration: underline;
-  color: #34495e;
+.post-title:hover {
+  color: #2563eb;
 }
 
 .post-subtitle {
   margin-top: 0;
   margin-bottom: 0.75rem;
-  font-size: 1.15rem;
-  font-style: italic;
-  color: #606060;
+  font-size: 0.95rem;
+  color: #666666;
 }

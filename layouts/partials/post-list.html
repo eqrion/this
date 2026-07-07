@@ -1,4 +1,4 @@
-{{ range where .Data.Pages.ByDate.Reverse "Section" "post"  }}
+{{ range where .Site.RegularPages.ByDate.Reverse "Section" "post"  }}
     <article class="post">
       <header>
         <h2><a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>

@@ -9,7 +9,6 @@ aliases = [
 draft = false
 tags = ["rust", "ffi", "project"]
 description = "Introducing cbindgen, a project for generating a C/C++ header for a Rust library. See also the popular bindgen project which works in the opposite direction. cbindgen will parse a single source or a whole library (including dependent crates) and gather all extern C functions, structs, and enums, and generate matching C/C++ definitons."
-disqusid = "1150"
 +++
 
 Rust is a great language for doing tasks normally done in C/C++. While it has a minimal runtime and zero-cost abstractions, it also has guaranteed memory safety and high level language features that make programming easier.

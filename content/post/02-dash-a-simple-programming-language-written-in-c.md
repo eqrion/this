@@ -9,7 +9,6 @@ aliases = [
 description = "In my spare time this summer I set out to write a programming language from scratch. I've always been interested in learning about how programming languages worked, and sometimes the best way to learn something is to get your hands dirty. So after quite a few nights of work, I created Dash, a very simple procedural language, virtual machine, and bytecode. Dash is nothing extraordinary. It won't be the next Python or Javascript. But it was a great learning experience and is pretty cool. I thought it would neat if others could see the end result, so I've hooked up a web server to run the compiler and virtual machine."
 draft = false
 tags = ["plang", "project"]
-disqusid = "1100"
 +++
 
 In my spare time this summer I set out to write a programming language from scratch. I've always been interested in learning about how programming languages worked, and sometimes the best way to learn something is to get your hands dirty. So after quite a few nights of work, I created [Dash](https://github.com/eqrion/dash/), a very simple procedural language, virtual machine, and bytecode.

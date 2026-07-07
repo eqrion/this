@@ -9,7 +9,6 @@ aliases = [
 description = "After a short break from coding for school, I finally got enough free time to finish a project. One of my favorite puzzle games is game called Wordament. It's a bit old now, but it still has an active community. The game is like Boggle, you get points for building a word across tiles. To be honest, I'm not very good at it. So I thought, why not write a program to give me some answers? So I did. I know that there are other solvers out there, but I just thought it'd be fun to hack together. You can find the end results here!"
 draft = false
 tags = ["rust", "project"]
-disqusid = "1104"
 +++
 
 After a short break from coding for school, I finally got enough free time to finish a project. One of my favorite puzzle games is game called [Wordament](http://www.wordament.com/). It's a bit old now, but it still has an active community. The game is like Boggle, you get points for building a word across tiles.

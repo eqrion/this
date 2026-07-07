@@ -7,7 +7,6 @@ aliases = [
 ]
 tags = ["web", "blog"]
 description = ""
-disqusid = "1153"
 draft = false
 +++
 

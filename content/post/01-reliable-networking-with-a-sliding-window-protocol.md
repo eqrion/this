@@ -9,7 +9,6 @@ aliases = [
 description = "I've always been interested in how networking protocols work, and how they can be reliable and also efficient. After some reading, I decided the best way to learn about it would be for me to have to write one. If you do research on this topic, you'll find guides that describe all the important ideas, such as ARQ's and sliding window protocols, and they do a good job at describing the general idea of what they accomplish and how. I wrote this to try and provide an end to end guide on how some reliable networking protocols operate. It goes into enough depth to cover most of the implementation details that arise, but code is not actually discussed. If you are looking for code, the c++ library created along with this article can be found here. Hopefully this will provide some help for anyone else seeking to do this in the future."
 draft = false
 tags = ["networking", "project"]
-disqusid = "1092"
 +++
 
 I've always been interested in how networking protocols work, and how they can be reliable and also efficient. After some reading, I decided the best way to learn about it would be for me to have to write one.

@@ -9,7 +9,6 @@ aliases = [
 draft = false
 tags = ["rust", "ffi", "project"]
 description = ""
-disqusid = "1151"
 +++
 
 <link href="/css/prism.css" rel="stylesheet" />

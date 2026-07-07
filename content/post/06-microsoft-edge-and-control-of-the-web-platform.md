@@ -9,7 +9,6 @@ aliases = [
 draft = false
 tags = ["web", "chrome"]
 description = ""
-disqusid = "1152"
 +++
 
 There's been a lot of discussion this past week around Microsoft's decision to abandon EdgeHTML and its implication on the future of the Web.

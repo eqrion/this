@@ -4,7 +4,7 @@
   <head>
     <title>{{ .Title }}</title>
     {{ $style := resources.Get "css/main.css" | resources.Minify }}
-    <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}">
+    <link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}">
     <meta name="google-site-verification" content="Zg5rl1JONi4ytvN4fCx7-PXnGdRiNtGrsCyxGcXEChs">
     <meta name="description" content="{{ .Description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">

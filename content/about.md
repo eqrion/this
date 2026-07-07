@@ -5,7 +5,7 @@ draft = false
 
 My name is Ryan Hunt. I'm a software engineer at [Mozilla](https://mozilla.org). I currently work on [WebAssembly](https://webassembly.org/) and [SpiderMonkey](https://spidermonkey.dev/), and previously worked on graphics and process isolation.
 
-You can find me on [GitHub](https://github.com/eqrion), follow me on [Mastodon](https://social.eqrion.net/@ryan), or [email me](mailto:ryan@mozilla.com).
+You can find me on [GitHub](https://github.com/eqrion), or follow me on [Mastodon](https://social.eqrion.net/@ryan), [Bluesky](https://bsky.app/profile/eqrion.bsky.social), or [Twitter](https://x.com/eqrion/).
 
 ## Projects
 

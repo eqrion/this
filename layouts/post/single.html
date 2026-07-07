@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+    <article class="post">
+      <header>
+        <h2><a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p class="post-subtitle">{{ .Date.Format "Monday, January 2, 2006" }} - {{ range .Params.tags }} <a href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}</p>
+      </header>
+      <section>
+        {{ .Content }}
+      <section>
+    </article>
+    <div class="divider"></div>
+    <div class="post-comments">
+      <div id="disqus_thread"></div>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = 'dreamingofbits';
+        var disqus_identifier = '{{ .Params.disqusid }}';
+        var disqus_title = '{{ .Title }}';
+        var disqus_url = '{{ .Permalink }}';
+      (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+{{ partial "license.html" . }}
+{{ partial "footer.html" . }}

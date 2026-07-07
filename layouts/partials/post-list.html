@@ -1,0 +1,13 @@
+{{ range where .Site.RegularPages.ByDate.Reverse "Section" "post"  }}
+    <article class="post">
+      <header>
+        <h2><a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p class="post-subtitle">{{ .Date.Format "January 2, 2006" }} - {{ range .Params.tags }} <a href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}</p>
+      </header>
+      <section>
+        {{ .Summary }}
+      </section>
+      <a class="readmore" href="{{ .RelPermalink }}">Read more...</a>
+      <div class="divider"></div>
+    </article>
+{{ end }}

@@ -1,0 +1,6 @@
+baseurl = "https://blog.eqrion.net/"
+languageCode = "en-us"
+title = "Ryan Hunt's Blog"
+
+[permalinks]
+post = "/:slug/"

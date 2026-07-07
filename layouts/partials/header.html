@@ -14,6 +14,8 @@
 
     {{ $style := resources.Get "css/main.css" | resources.Minify }}
     <link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}">
+    {{ $chroma := resources.Get "css/chroma.css" | resources.Minify }}
+    <link rel="stylesheet" type="text/css" href="{{ $chroma.RelPermalink }}">
 
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">

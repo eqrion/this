@@ -1,6 +1,6 @@
-baseurl = "https://blog.eqrion.net/"
-languageCode = "en-us"
-title = "Ryan Hunt's Blog"
+baseurl = "https://eqrion.net/"
+locale = "en-us"
+title = "Ryan Hunt"
 
 [permalinks]
 post = "/:slug/"

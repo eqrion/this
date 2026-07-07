@@ -1,6 +1,6 @@
 baseurl = "https://eqrion.net/"
 locale = "en-us"
-title = "Ryan Hunt"
+title = "Ryan Hunt's Blog"
 
 [params]
 description = "Ryan Hunt's blog. Working on the WebAssembly engine and standards at Mozilla."

@@ -23,7 +23,7 @@ There was no Rust internship on offer, so I applied for the two roles that came 
 
 I got the Graphics one. Not my first choice, but I knew I was a long shot for the compiler role.
 
-I spent that summer in Mozilla's Mountain View office, thrown into the largest and most complex codebase I'd ever seen. Parts of it about as old as I was! There was no hand-holding. You either needed to ping the right person on IRC (RIP), or figure it out yourself.
+I spent that summer in Mozilla's Mountain View office, thrown into the largest and most complex codebase I'd ever seen. Parts of it [about as old as I was](https://github.com/mozilla-firefox/firefox/commit/c4cc52826abd53e1121e4234d719cfd89ce58093)! There was no hand-holding. You either needed to ping the right person on IRC (RIP), or figure it out yourself.
 
 <figure>
   <img src="/images/ten-years-at-mozilla/first-desk.jpg" alt="My desk during my internship">

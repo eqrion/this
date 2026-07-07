@@ -2,6 +2,10 @@ baseurl = "https://eqrion.net/"
 locale = "en-us"
 title = "Ryan Hunt"
 
+[params]
+description = "Ryan Hunt's blog. Working on the WebAssembly engine and standards at Mozilla."
+author = "Ryan Hunt"
+
 [permalinks]
 post = "/:slug/"
 

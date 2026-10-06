@@ -1,3 +1,3 @@
-# blog.eqrion.net
+# eqrion.net
 
-This repository hosts the content and templates for `https://blog.eqrion.net/`.
+This repository hosts the content and templates for `https://eqrion.net/`.

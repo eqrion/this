@@ -94,6 +94,10 @@
   /* NameEntity */ .chroma .ni { color:#ffa657 }
   /* NameException */ .chroma .ne { color:#f0883e;font-weight:bold }
   /* NameLabel */ .chroma .nl { color:#79c0ff;font-weight:bold }
+  /* NameAttribute */ .chroma .na { color:#e6edf3 }
+  /* NameBuiltin */ .chroma .nb { color:#e6edf3 }
+  /* NameBuiltinPseudo */ .chroma .bp { color:#e6edf3 }
+  /* Punctuation */ .chroma .p { color:#e6edf3 }
   /* NameNamespace */ .chroma .nn { color:#ff7b72 }
   /* NameOther */ .chroma .nx { color:#e6edf3 }
   /* NameProperty */ .chroma .py { color:#79c0ff }
